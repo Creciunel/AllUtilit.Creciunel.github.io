@@ -1,0 +1,24 @@
+{
+    "name": "allutilit",
+    "version": "0.1.0",
+    "description": "Add all of information in one form",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ./src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Creciunel/AllUtilit.git"
+    },
+    "keywords": [
+        "Information"
+    ],
+    "author": "Catalin",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Creciunel/AllUtilit/issues"
+    },
+    "homepage": "https://github.com/Creciunel/AllUtilit#readme"
+}

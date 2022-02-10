@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    /* align-items: center; */
+    justify-content: center;
+    /* align-content: center; */
+    display: flex;
+    background-color: rgba(103, 177, 190, 0.5);
+}
+
+#container {
+    margin-top: 5%;
+    background-color: blueviolet;
+    height: 90vh;
+    width: 90%;
+    border-radius: 20%;
+}
+
+#text-container {
+    margin: 15%;
+}
+
+p::after {
+    color: aliceblue;
+}
+
+p::before {
+    color: rgb(236, 145, 53);
+    font-weight: bold;
+}
