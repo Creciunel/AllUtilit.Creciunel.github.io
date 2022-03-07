@@ -6,13 +6,25 @@ body {
     justify-content: center;
     /* align-content: center; */
     display: flex;
-    background-color: rgba(103, 177, 190, 0.5);
+    background-color: rgba(50, 213, 241, 0.5);
 }
 
 img{
     width: 60%;
     border: 3px solid black;
 }
+button{
+    width: 23vh;
+    height: 13vh;
+    color: #000;
+    background-color: aqua;
+    border-radius: 3vh;
+    box-shadow: 0 2vh 2vh 1vh rgba(50, 213, 241, 0.5);
+}
+button:active{
+    color: blue;
+}
+
 /* 
 #container {
     margin-top: 5%;

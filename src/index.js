@@ -5,7 +5,7 @@ const MyObject = new App();
 $("body").css("text-align", "center");
 
 //  MyObject.get2();
-let index = Math.floor(Math.random() * (2 - 0) + 0);
+let index = Math.floor(Math.random() * (3 - 0) + 0);
 switch(index){
     case 0:
         MyObject.get1();
