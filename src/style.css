@@ -1,19 +1,19 @@
-body {
+ body {
+    text-align: center; 
+    align-items: center;
     font-family: sans-serif;
     margin: 0;
     padding: 2%;
-    /* align-items: center; */
     justify-content: center;
-    /* align-content: center; */
-    display: flex;
+    align-content: center; 
     background-color: rgba(50, 213, 241, 0.5);
-}
+} 
 
 img{
     width: 60%;
     border: 3px solid black;
 }
-button{
+#btn{
     width: 23vh;
     height: 13vh;
     color: #000;
@@ -21,28 +21,34 @@ button{
     border-radius: 3vh;
     box-shadow: 0 2vh 2vh 1vh rgba(50, 213, 241, 0.5);
 }
-button:active{
+#btn:active{
     color: blue;
 }
-
-/* 
-#container {
-    margin-top: 5%;
-    background-color: blueviolet;
-    height: 90vh;
-    width: 90%;
-    border-radius: 20%;
+#btn1{
+    font-size: 130%;
+    padding: 2% 4%;
+    background-color: rgb(159, 245, 216);
+}
+#container{
+    z-index: 1;
+    visibility:hidden;
+    position: absolute;
+    top: 5vh;
 }
 
-#text-container {
-    margin: 15%;
+.menu{
+    z-index: 0;
+    margin: 0 10%;
+    position: relative;
+    background-color: rgb(200, 245, 245);
+    padding: 10%; 
+    border-radius: 15%;
 }
-
-p::after {
-    color: aliceblue;
+.size_font{
+    font-size: 18px;
 }
-
-p::before {
-    color: rgb(236, 145, 53);
-    font-weight: bold;
-} */
+@media screen and (min-width: 411px) {
+    #container{
+        margin: 0 25%;
+    }
+}
